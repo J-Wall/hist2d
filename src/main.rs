@@ -21,7 +21,9 @@ fn main() {
         vals.next();
         let c1: usize = vals.next().unwrap().parse().expect("Invalid file format");
         let c2: usize = vals.next().unwrap().parse().expect("Invalid file format");
-        hist[c1][c2] += 1;
+        if (c1 < nbins) & (c2 < nbins) {
+            hist[c1][c2] += 1;
+        }
     }
 
     for row in hist {
