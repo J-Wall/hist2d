@@ -1,0 +1,7 @@
+[package]
+name = "hist2d"
+version = "0.1.0"
+authors = ["jesse"]
+edition = "2018"
+
+[dependencies]
