@@ -1,5 +1,5 @@
 name: hist2d
-version: "0.1.0"
+version: "0.1.1"
 author: Jesse Wallace <jesse.wallace@anu.edu.au>
 about: Generates a 2d histogram from count data with two variables.
 args:
