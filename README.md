@@ -1,5 +1,5 @@
 # hist2d
-Generates a 2d histogram from count data with two variables.
+Generates a 2d histogram from paired count data.
 
 ```
 USAGE:
